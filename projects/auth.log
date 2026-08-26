@@ -1,0 +1,17 @@
+Aug 26 20:00:10 server-01 sshd[10412]: Failed password for invalid user admin from 192.168.1.105 port 42110 ssh2
+Aug 26 20:00:14 server-01 sshd[10415]: Failed password for invalid user root from 192.168.1.105 port 42112 ssh2
+Aug 26 20:00:18 server-01 sshd[10419]: Failed password for invalid user test from 192.168.1.105 port 42114 ssh2
+Aug 26 20:00:22 server-01 sshd[10423]: Failed password for ubuntu from 192.168.1.105 port 42116 ssh2
+Aug 26 20:00:27 server-01 sshd[10427]: Failed password for invalid user deploy from 192.168.1.105 port 42118 ssh2
+Aug 26 20:00:35 server-01 sshd[10431]: Failed password for invalid user oracle from 192.168.1.105 port 42120 ssh2
+Aug 26 20:05:01 server-01 CRON[10440]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 26 20:05:01 server-01 CRON[10440]: pam_unix(cron:session): session closed for user root
+Aug 26 20:10:12 server-01 sshd[10488]: Failed password for invalid user guest from 203.0.113.42 port 51102 ssh2
+Aug 26 20:15:30 server-01 sshd[10512]: Accepted publickey for devuser from 10.0.0.15 port 58210 ssh2: RSA SHA256:abc123xyz
+Aug 26 20:15:30 server-01 sshd[10512]: pam_unix(sshd:session): session opened for user devuser by (uid=1001)
+Aug 26 20:16:02 server-01 sudo:  devuser : TTY=pts/0 ; PWD=/home/devuser ; USER=root ; COMMAND=/usr/bin/apt update
+Aug 26 20:18:45 server-01 sshd[10555]: Failed password for invalid user test from 203.0.113.42 port 51188 ssh2
+Aug 26 20:22:10 server-01 sshd[10601]: Failed password for john from 198.51.100.27 port 39822 ssh2
+Aug 26 20:22:18 server-01 sshd[10605]: Accepted password for john from 198.51.100.27 port 39822 ssh2
+Aug 26 20:22:18 server-01 sshd[10605]: pam_unix(sshd:session): session opened for user john by (uid=1002)
+Aug 26 20:25:11 server-01 sshd[10640]: Failed password for invalid user admin from 203.0.113.42 port 51240 ssh2
